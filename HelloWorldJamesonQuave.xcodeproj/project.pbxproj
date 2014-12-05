@@ -14,6 +14,8 @@
 		9681915F1A2D612500B6B3DF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9681915E1A2D612500B6B3DF /* Images.xcassets */; };
 		968191621A2D612500B6B3DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 968191601A2D612500B6B3DF /* LaunchScreen.xib */; };
 		9681916E1A2D612500B6B3DF /* HelloWorldJamesonQuaveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9681916D1A2D612500B6B3DF /* HelloWorldJamesonQuaveTests.swift */; };
+		968191781A2EC1DA00B6B3DF /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968191771A2EC1DA00B6B3DF /* SearchResultsViewController.swift */; };
+		9681917A1A2EC27F00B6B3DF /* APIController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968191791A2EC27F00B6B3DF /* APIController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		968191671A2D612500B6B3DF /* HelloWorldJamesonQuaveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldJamesonQuaveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9681916C1A2D612500B6B3DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9681916D1A2D612500B6B3DF /* HelloWorldJamesonQuaveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldJamesonQuaveTests.swift; sourceTree = "<group>"; };
+		968191771A2EC1DA00B6B3DF /* SearchResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		968191791A2EC27F00B6B3DF /* APIController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 			children = (
 				968191541A2D612500B6B3DF /* AppDelegate.swift */,
 				968191591A2D612500B6B3DF /* ViewController.swift */,
+				968191791A2EC27F00B6B3DF /* APIController.swift */,
 				9681915B1A2D612500B6B3DF /* Main.storyboard */,
+				968191771A2EC1DA00B6B3DF /* SearchResultsViewController.swift */,
 				9681915E1A2D612500B6B3DF /* Images.xcassets */,
 				968191601A2D612500B6B3DF /* LaunchScreen.xib */,
 				968191561A2D612500B6B3DF /* HelloWorldJamesonQuave.xcdatamodeld */,
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9681915A1A2D612500B6B3DF /* ViewController.swift in Sources */,
+				968191781A2EC1DA00B6B3DF /* SearchResultsViewController.swift in Sources */,
 				968191581A2D612500B6B3DF /* HelloWorldJamesonQuave.xcdatamodeld in Sources */,
 				968191551A2D612500B6B3DF /* AppDelegate.swift in Sources */,
+				9681917A1A2EC27F00B6B3DF /* APIController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
